@@ -13,6 +13,26 @@
   text-decoration: underline;
 }
 .jumbotron{
-    background-image: url("paper.gif");
+    background-image: url("../img/pirate-ship.jpg");
+    background-size: cover;
+}
+h1{
+  text-align: center
+}
+h2{
+  text-align: center;
+}
+h4{
+  text-align: left
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+}
+.carousel {
+  position: absolute;
+  top: -100;
+  left: 500;
+  min-width: 5%;
+  height: 11%;
 }
 // Import partials here
