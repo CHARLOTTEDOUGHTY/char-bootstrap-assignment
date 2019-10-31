@@ -9,21 +9,35 @@
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
+h1{
+  font-family: 'Liu Jian Mao Cao', cursive, 'Indie Flower', cursive, 'Gloria Hallelujah', cursive;
+  text-align: center
+} 
+h2{
+  font-family: 'Indie Flower', cursive, 'Gloria Hallelujah', cursive;
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+h4{
+  font-family: 'Indie Flower', cursive, 'Gloria Hallelujah', cursive;
+  text-align: left
+}
+h5{
+  font-family: "Times New Roman", Times, serif;
+}
+h6{
+  font-family: "Times New Roman", Times, serif;
+}
 .nav-link:hover {
   text-decoration: underline;
 }
 .jumbotron{
     background-image: url("../img/pirate-ship.jpg");
     background-size: cover;
-}
-h1{
-  text-align: center
-}
-h2{
-  text-align: center;
-}
-h4{
-  text-align: left
+    background-position: 100% 30%;
+    
 }
 p {
   font-family: "Times New Roman", Times, serif;
