@@ -28,18 +28,18 @@
     </nav>
     <div class="jumbotron banner text-center">
       <h1>The Ship's Log</h1>
-      <p>A diary by Capt. Crit McGillicutty</p> 
+      <p id="colorwhite">A diary by Capt. Crit McGillicutty</p> 
     </div>
       <div class="container">
           <div class="row">
-              <div style="padding-right:50px; border-right: 3px solid #ccc;">
-            <div class="col-sm-6 col-lg-6" style="padding-left: 50px">
-                <img src="img/pirate.jpg" class="img-responsive" style="padding-top:50px"; height="290" width="220">
-                 <p class="byline">By Crit McGillicutty<br>
-                      <span>Island Breeze Tribune</span></p>
-            </div>
-            </div>
-            <div class="col-sm-6 col-lg-6">
+              <div class="col-sm-6 col-lg-4">
+                  <img src="img/pirate.jpg" class="img-fluid">
+                  <div class="byline">
+                    <p class="name">By: Crit McGillicutty</p>
+                    <p class="source">Island Breeze Tribune</p>
+                  </div>
+              </div>
+            <div class="col-sm-6 col-lg-8 border-left">
               <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -79,13 +79,10 @@
             </div> 
                 </div>
                 
-                <!-- Footer -->
-      <footer class="page-footer">
-      
-          <div class="footer-copyright text-center py-3"> A class project by: Charlotte Doughty
-          </div>
-        </footer>
-          </div>
+  <!-- Footer -->
+  <footer> 
+    <p> A class project by: Charlotte Doughty</p>
+  </footer>
 
     <!-- Closing scripts here -->
     <script src="js/jquery.js"></script>

@@ -9,48 +9,71 @@
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
-p{
-  font-size: 15px;
+p #colorwhite {
+  color: white;
 }
-h1{
+
+h1 {
   font-family: 'Liu Jian Mao Cao', cursive, 'Indie Flower', cursive, 'Gloria Hallelujah', cursive;
-  text-align: center
+  text-align: center;
+  color: white;
 } 
-h2{
+
+h2 {
   font-family: 'Indie Flower', cursive, 'Gloria Hallelujah', cursive;
   text-align: center;
 }
-h3{
+
+h3 {
   text-align: center;
 }
-h4{
+
+h4 {
   font-family: 'Indie Flower', cursive, 'Gloria Hallelujah', cursive;
-  text-align: left
+  padding-top: 20px;
+  font-size: 2rem;
 }
-.byline{
-  font-family: "Times New Roman", Times, serif;
-  font-size: 10px;
-  font-weight: bold;
-}
-h6{
+
+h6 {
   font-family: "Times New Roman", Times, serif;
 }
+
 
 .nav-link:hover {
   text-decoration: underline;
 }
-.navbar-default{
+.navbar-default {
   background-color: rgb(71, 67, 67);
 }
-.jumbotron{
+
+.jumbotron {
     background-image: url("../img/pirate-ship.jpg");
     background-size: cover;
     background-position: 100% 30%;
 }
+
 p {
   font-family: "Times New Roman", Times, serif;
 }
-.footer {
-  background: none repeat scroll 0 0 #5c5757;
+
+footer {
+  background-color: darkgray;
+  text-align: center;
 }
+
+.byline {
+  p {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+  }
+
+  .source{
+    font-style: italic;
+  }
+
+  .name {
+    margin-bottom: 2px;
+  }
+  }
+
 // Import partials here
